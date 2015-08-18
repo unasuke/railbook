@@ -1,13 +1,17 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+modernruby:
+  isbn: 1-1-1
+  title: rubyやっぞい！
+  price: 100
+  author: nikuzuki
 
-one:
-  isbn: MyString
-  title: MyString
-  price: 1
-  author: MyString
+modernjava:
+  isbn: 2-2-2
+  title: javadejavajava
+  price: 200
+  author: uozuki
 
-two:
-  isbn: MyString
-  title: MyString
-  price: 1
-  author: MyString
+modernphp:
+  isbn: 3-3-3
+  title: 楽しくないPHP、でも便利
+  price: 290000
+  author: gomizuki
