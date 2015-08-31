@@ -7,4 +7,8 @@ class HelloController < ApplicationController
     @msg = 'hello, world!'
     @nkz = 'I,m nikuzuki'
   end
+
+  def list
+    @books = Book.all #allメソッド　SELECT * FROM books
+  end
 end
