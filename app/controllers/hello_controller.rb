@@ -4,6 +4,7 @@ class HelloController < ApplicationController
   end
 
   def view
+    # TODO: 後で変数追加
     @msg = 'hello, world!'
     @nkz = 'I,m nikuzuki'
   end
